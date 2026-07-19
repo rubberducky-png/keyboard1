@@ -3,12 +3,12 @@
 
 void keyboard_post_init_user(void) {
     rn4871_init();
-    rn4871_configure_hid(); // see rn4871.c - HID GATT portion is a documented stub
+    rn4871_configure_hid();
 }
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     rn4871_update_key(keycode, record->event.pressed);
-    return true; // still let QMK process the keycode normally for USB
+    return true; 
 }
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -22,8 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     )
 };
 
-// Rotary encoder: clockwise = volume up, counter-clockwise = volume down,
-// click = mute (matrix position [0,14], confirmed from D14's row net).
+
 bool encoder_update_user(uint8_t index, bool clockwise) {
     if (index == 0) {
         if (clockwise) {
