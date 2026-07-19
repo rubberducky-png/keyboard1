@@ -88,6 +88,7 @@ I apologize again for the semi-completed assembly, my document on Onshape couldn
 ## Bill of Materials (BOM)
 
 attached as separate spreadsheet file
+btw I also dont have a soldering iron but Im hoping I have enough fruits to get the pinecil
 
 ## Shoutout hackclub and the macondo program
 
