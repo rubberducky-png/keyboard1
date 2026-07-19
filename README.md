@@ -1,10 +1,10 @@
 <center>
 
-# Tap65: 68-Key Mechanical Keyboard
+# rektek keyboard1: 81-Key Mechanical Keyboard
 
-A fully custom 68-key mechanical keyboard designed from the ground up, including the PCB, case, firmware, and assembly. This project was built to learn the complete keyboard design process while creating a functional keyboard tailored to my own preferences.
+A fully custom 81-key mechanical keyboard designed by me, including the PCB, case, firmware, and assembly. This project was built to learn the complete keyboard design process while creating a functional keyboard.
 
-Funded With The Help Of JLCPCB and HackClub's YSWS Keeb
+Funded With The Macondo Program
 
 ## Features
 
@@ -13,69 +13,50 @@ Funded With The Help Of JLCPCB and HackClub's YSWS Keeb
 - QMK firmware support
 - Screw-in stabilizers
 - 3D printed two-piece tray mount case
-- 7° typing angle for improved ergonomics
-- Per Key RGB
-
+- 8° typing angle for improved ergonomics
+  
 ## Why I Built It
 
-I've always been interested in mechanical keyboards and wanted to understand how they work beyond simply assembling pre-made kits. Instead of buying an existing keyboard, I decided to design every major component myself.
+I've always been interested in how things work, so when I was looking for a project I happened to glance at my hands, with my keyboard right underneath. Instead of buying an existing keyboard, I decided to design every  component like the PCB myself.
 
-This project gave me the opportunity to learn PCB design, CAD modelling, firmware configuration, manufacturing, soldering, and the overall engineering process behind modern custom keyboards.
 
 ## Design Process
 
-The project began by selecting a 68-key layout that balances compactness with everyday usability. I then designed the PCB in KiCad, routed all the traces, and added support for hot-swap sockets and USB-C connectivity. After the electronics were complete I designed a simple tray mount in Onshape. The case is made out of two PLA printed pieces and includes a 7° typing angle for a more comfortable typing experience. Because of small bed size I will have to print them in pieces.
+The project began by selecting a 81-key layout that has a lot of function but is also on the smaller side. I then designed the PCB in KiCad, routed all the traces, and added support for hot-swap sockets and USB-C connectivity. After the electronics were complete I designed a simple tray mount in Onshape. The case is made out of two PLA printed pieces and includes a 7° typing angle for a more comfortable typing experience. Because of small bed size I will have to print them in pieces.
 
-Finally, the keyboard is programmed using kmk firmware.
+Finally, the keyboard is programmed using qmk firmware.
 
 ## Components
 
 - Custom PCB
 - Raspberry Pi Pico
 - MX-compatible switches
-- Durock Clear Screw-In Stabilizers V2
-- Hot-swap sockets
-- USB-C connector
+- MX Screw-In Stabilizers V2
+- USB-mini connector
 - 3D printed PLA case
 - Keycaps
-- SK6812 mini-e
+- Rotary encoder
+- 3D printed knob
 
 ## Challenges
 
 Some of the biggest challenges included:
 
 - Learning PCB routing and keyboard matrix design
-- Neopixel wiring
-- Designing a printable case that was both strong and easy to assemble
+- Designing a printable case that was able to support the pcb well
 - Ensuring all mounting points aligned correctly
-- Managing component sourcing and costs
-
-## What I Learned
-
-Through this project I learned:
-
-- PCB design using KiCad
-- CAD modelling in Onshape
-- Mechanical keyboard architecture
-- KMK scripting
-- Case design
 
 ## Files:
-PCB production ready files availabe in [Production](/fabrication). CAD files availabe on OnShape [Tap65](https://cad.onshape.com/documents/8f869f2a44712437e4702e46/w/78ecf35c97da350371a517a7/e/15a686cf102c39b24f8e8911?renderMode=0&uiState=6a460c8d3c1bece070459f5d)
+I apologize for the mess, when I put my files into folders the larger ones kept deleting themselves.
 
 ## Images and Renders!
 
 ### Matrix Schematic
-<img width="1173" height="401" alt="image" src="https://github.com/user-attachments/assets/31d9d7a0-ed0f-43a0-95e5-541793c8da74" /><br><br>
-
-### Neopixel
-<img width="714" height="547" alt="image" src="https://github.com/user-attachments/assets/31604d8d-ad05-4e9a-b7aa-fd7be4cce659" /><br><br>
-
-### MCU - Raspberry Pi PICO
-<img width="443" height="464" alt="image" src="https://github.com/user-attachments/assets/02c447b4-0945-40b7-88ad-7abbc88fbf32" /><br><br>
+<img width="1822" height="925" alt="image" src="https://github.com/user-attachments/assets/843dc2d1-18d9-4d06-a0e3-b7d57ff4d6e7" />
+<img width="1166" height="739" alt="image" src="https://github.com/user-attachments/assets/c0a766a6-0606-490b-b57d-987bf25a6845" />
 
 ### PCB
-<img width="1024" height="464" alt="image" src="https://github.com/user-attachments/assets/219b900c-b72c-4392-af85-b87ae30fd4f0" /><br><br>
+
 
 ### PCB Render - 3D Viewer
 
@@ -88,19 +69,19 @@ PCB production ready files availabe in [Production](/fabrication). CAD files ava
 ### OnShape Render
 
 #### Case
-<img width="768" height="325" alt="image-removebg-preview" src="https://github.com/user-attachments/assets/dd0fff1f-5d15-4b31-aad8-1b04b95e59ae" /> <br><br>
-
-#### Plate
-<img width="903" height="382" alt="image" src="https://github.com/user-attachments/assets/426b34d4-7cda-4fc3-a937-d4ba0661007a" /> <br><br>
+<img width="1165" height="528" alt="image" src="https://github.com/user-attachments/assets/e3d96410-2df9-41ee-8e6f-7d7ce6166e82" />
 
 ### PCB
-<img width="903" height="382" alt="image" src="https://github.com/user-attachments/assets/a508dc3e-e0b8-489d-be0c-f40e91f4e41d" /> <br><br>
+<img width="1112" height="519" alt="image" src="https://github.com/user-attachments/assets/f377088d-d057-4555-9f10-83b966d3cdee" />
 
 ### Assembly
-<img width="899" height="382" alt="image" src="https://github.com/user-attachments/assets/413ae0ea-e072-42de-88cb-4ff1a3502499" /> <br><br>
+<img width="1071" height="471" alt="image" src="https://github.com/user-attachments/assets/ef5d38c2-2d68-4b87-b9fb-afdaafa41700" />
+I apologize again for the semi-completed assembly, my document on Onshape couldn't take all of the lag from the amount of parts and started to kick me off of the document every time I went to import something.
+
 
 ## Sketch
-<img width="899" height="382" alt="image" src="https://github.com/user-attachments/assets/b394bc86-97e6-4b74-9678-9ab45d89d3c4" /> <br><br>
+<img width="807" height="462" alt="image" src="https://github.com/user-attachments/assets/51c62869-89a3-462d-bdb1-b6b95fda4f7a" />
+
 
 
 ## Bill of Materials (BOM)
@@ -127,9 +108,6 @@ PCB production ready files availabe in [Production](/fabrication). CAD files ava
 | Rounded Total | **$91** |
 | Estimated Total (Including Tax & Shipping) | **$95** |
 
-## Credits
-
-This project was made possible through open-source hardware and firmware resources, along with support from the mechanical keyboard community. Special thanks to Hack Club and JLCPCB for helping make the project possible.
-
+##Shoutout hackclub and the macondo program
 
 </center>
