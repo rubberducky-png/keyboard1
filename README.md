@@ -27,17 +27,10 @@ The project began by selecting a 81-key layout that has a lot of function but is
 
 Finally, the keyboard is programmed using qmk firmware.
 
-## Components
+## BOM
 
-- Custom PCB
-- Raspberry Pi Pico
-- MX-compatible switches
-- MX Screw-In Stabilizers V2
-- USB-mini connector
-- 3D printed PLA case
-- Keycaps
-- Rotary encoder
-- 3D printed knob
+<img width="1380" height="633" alt="image" src="https://github.com/user-attachments/assets/ed80f1d6-b348-4a0f-9240-c887fe759ecc" />
+
 
 ## Challenges
 
