@@ -1,0 +1,18 @@
+SI No.,Name,Notes,Quantity,Price Per Unit,Cost,Total,Link
+1,Cherry MX-style Switches (80 Total),MX-compatible mechanical keyboard switches,80,0.30,24.00,,https://www.amazon.com/s?k=Gateron+G+Brown+Pro+V3.0+110pcs+5pin
+2,1N4148 Diodes,Through-hole switching diodes for keyboard matrix,82,0.03,2.46,, https://www.amazon.com/s?k=120PCS+1N4148+Rectifier+Diodes+100V+DO-35
+3,Cherry-style Stabilizer Set,"2x 2.25u, 1x 2u, 1x 6.25u",1,6.00,6.00,,https://www.amazon.com/s?k=Cherry+PCB+Mount+Stabilizer+Set+6.25u+2u
+4,EC11 Rotary Encoder,EC11 rotary encoder with integrated push button,1,1.00,1.00,,https://www.amazon.com/s?k=EC11+Rotary+Encoder+Switch+20mm+Knurled+Vertical
+5,Raspberry Pi Pico,RP2040 microcontroller board,1,5.00,5.00,,https://www.pishop.us/product/raspberry-pi-pico/
+6,RN4871U-V/RM118 Bluetooth Module,Bluetooth 5.0 BLE UART module,1,12.00,12.00,,https://www.digikey.com/en/products/detail/microchip-technology/RN4871U-V-RM118/5319725
+7,0805 Resistors,"330Ω and 10kΩ resistors",2,0.02,0.04,,https://www.digikey.com/en/products/filter/chip-resistor-surface-mount/52
+8,0603 100nF Capacitor,Ceramic decoupling capacitor,1,0.02,0.02,,https://www.digikey.com/en/products/filter/ceramic-capacitors/60
+9,0805 Status LED,0805 indicator LED,1,0.05,0.05,,https://www.digikey.com/en/products/filter/led-indication-discrete/105
+10,M2 Mounting Screws,PCB mounting screws,4,0.10,0.40,,https://www.amazon.com/s?k=M2+screw+kit
+11,M2 Heat-Set Inserts,Brass threaded inserts for case,4,0.15,0.60,,https://www.amazon.com/s?k=M2+heat+set+threaded+inserts
+12,PCB Fabrication (313×152mm 2-Layer),Custom PCB fabrication,1,35.00,35.00,,https://jlcpcb.com
+13,Dye-Sub PBT Keycap Set,Cherry-profile PBT keycap set,1,40.00,40.00,,https://www.amazon.com/s?k=126+Keys+Cherry+Profile+PBT+Double+Shot+Keycaps+Charcoal+Beige
+14,USB-C to Micro-USB Cable,Programming/data cable,1,6.00,6.00,,https://www.amazon.com/s?k=Cable+Matters+USB+C+to+Micro+USB+Cable+3.3ft
+15,PETG/PLA Filament,Filament for printing keyboard case,1,12.00,12.00,,https://www.amazon.com/s?k=PETG+1.75mm+filament
+16,M2 Case Assembly Screws,Assorted M2 screws for enclosure,8,0.10,0.80,,https://www.amazon.com/s?k=M2+screw+kit
+,,,,,,145.37,,
