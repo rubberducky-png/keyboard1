@@ -52,13 +52,6 @@ I apologize for the mess, when I put my files into folders the larger ones kept 
 ### PCB
 
 
-### PCB Render - 3D Viewer
-
-#### Front
-<img width="1151" height="362" alt="image" src="https://github.com/user-attachments/assets/f7e9d533-d326-4429-8a8c-e4ecfd8cd5de" /><br><br>
-
-#### Back
-<img width="1151" height="362" alt="image" src="https://github.com/user-attachments/assets/1e4aa1d7-9c70-4f04-aca4-e5c7b8159c56" /><br><br>
 
 ### OnShape Render
 
