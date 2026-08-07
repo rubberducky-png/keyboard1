@@ -49,10 +49,6 @@ I apologize for the mess, when I put my files into folders the larger ones kept 
 <img width="1822" height="925" alt="image" src="https://github.com/user-attachments/assets/843dc2d1-18d9-4d06-a0e3-b7d57ff4d6e7" />
 <img width="1166" height="739" alt="image" src="https://github.com/user-attachments/assets/c0a766a6-0606-490b-b57d-987bf25a6845" />
 
-### PCB
-
-
-
 ### OnShape Render
 
 #### Case
